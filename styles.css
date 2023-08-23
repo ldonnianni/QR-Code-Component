@@ -31,6 +31,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 
 
@@ -70,6 +71,10 @@ body {
 }
 
 footer {
-    border: 1px solid black;
+    max-width: 1440px;
+    position: fixed;
+    bottom: 50px;
+    right: 0;
+    left: 0;
 }
 
