@@ -34,8 +34,6 @@ body {
     width: 100%;
 }
 
-
-
 .container {
     width: 250px;
     background-color: var(--main-white);
@@ -45,6 +43,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: 5px 5px 5px 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
 .container img {
