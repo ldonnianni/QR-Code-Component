@@ -17,8 +17,6 @@
 }
 
 html {
-    max-width: 1440px;
-    min-width: 375px;
     box-sizing: inherit;
     font-size: 1rem;
 }
@@ -45,6 +43,7 @@ body {
 
 .container img {
     width: 240px;
+    max-width: 375px;
     position: relative;
     margin-left: 5px;
     margin-top: 5px;
@@ -69,7 +68,7 @@ body {
 
 footer {
     position: fixed;
-    bottom: 50px;
+    bottom: 20px;
     left: 0;
     right: 0;
 }
