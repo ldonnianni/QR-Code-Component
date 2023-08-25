@@ -36,17 +36,60 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+In order to complete this challenge I have to learned to use Git and Github, and its integrations with VS Code.
+For the challenge on itself I learned to center the QR card in two different ways, with the translate properties and flexbox.
+
+With translate properties.
+
+```css
+.container {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+```
+
+With Flexbox 
+
+```css
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+```
+
+I left the first option in the code. But not really know wich one is better.
+
+I put attribution as a footer in the bottom.
+
+```html
+ <footer class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Luciana Donnianni</a>.
+    </footer>
+```
+
+```css
+footer {
+    position: fixed;
+    bottom: 50px;
+    left: 0;
+    right: 0;
+}
+```
+
+
+
+
+
+
 
 To see how you can add code snippets, see below:
 
