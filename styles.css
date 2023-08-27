@@ -17,8 +17,8 @@
 }
 
 html {
-    max-width: 1440px;
-    min-width: 375px;
+    /* max-width: 1440px;
+    min-width: 375px; */
     box-sizing: inherit;
     font-size: 1rem;
 }
@@ -32,10 +32,12 @@ body {
     justify-content: center;
     align-items: center;
     width: 100%;
+    padding-inline: 24px;
 }
 
 .container {
-    width: 250px;
+    max-width: 250px;
+    width: 100%;
     background-color: var(--main-white);
     border-radius: 10px;
     display: flex;
@@ -47,10 +49,11 @@ body {
 }
 
 .container img {
-    width: 240px;
+    width: 100%;
+    margin-inline: auto;
     position: relative;
-    margin-left: 5px;
-    margin-top: 5px;
+    /* margin-left: 5px;
+    margin-top: 5px; */
     border-radius: 5px;
 }
 
@@ -72,7 +75,7 @@ body {
 footer {
     max-width: 1440px;
     position: fixed;
-    bottom: 50px;
+    bottom: 10px;
     right: 0;
     left: 0;
 }
